@@ -19,6 +19,9 @@ namespace ECommerce_API.Controllers
 
         [HttpGet]
         [EnableQuery]
+        [ProducesResponseType(typeof(PagedResult<BaseProductDto>), 200)]
+        [ProducesResponseType(typeof(PagedResult<BaseProductDto>), 400)]
+        [ProducesResponseType(typeof(PagedResult<BaseProductDto>), 505)]
         public async Task<ActionResult<List<BaseProductDto>>> SearchProducts([FromQuery] string searchParameter)
         {
             var searchString = searchParameter.Trim();

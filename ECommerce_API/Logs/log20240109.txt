@@ -3006,3 +3006,9 @@ System.InvalidOperationException: Unable to resolve service for type 'ECommerce_
 2024-01-09 18:12:34.818 +02:00 [INF] Hosting environment: Development
 2024-01-09 18:12:34.819 +02:00 [INF] Content root path: D:\.netprojs\ECommerce_API\ECommerce_API
 2024-01-09 18:12:43.271 +02:00 [INF] HTTP GET /api/ProductCategory responded 200 in 1242.0273 ms
+2024-01-09 18:22:46.609 +02:00 [INF] Now listening on: https://localhost:7067
+2024-01-09 18:22:46.640 +02:00 [INF] Now listening on: http://localhost:5097
+2024-01-09 18:22:46.644 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 18:22:46.645 +02:00 [INF] Hosting environment: Development
+2024-01-09 18:22:46.646 +02:00 [INF] Content root path: D:\.netprojs\ECommerce_API\ECommerce_API
+2024-01-09 18:22:52.001 +02:00 [INF] HTTP GET /api/ProductCategory responded 400 in 171.7744 ms

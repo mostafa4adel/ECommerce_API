@@ -16,9 +16,6 @@ namespace ECommerce_API.Core.Services
             this._productsRepository = productsRepository;
         }
 
-
-        
-
         public async Task<PagedResult<BaseCategoryDto>> getAsyncAllCategories(QueryParameters queryParameters)
         {
             var categories = await _categoriesRepositroy.GetAllAsync<BaseCategoryDto>(queryParameters);

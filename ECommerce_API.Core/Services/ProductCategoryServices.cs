@@ -2,6 +2,9 @@
 using ECommerce_API.Core.Models.Category;
 using ECommerce_API.Core.Models.Product;
 
+
+using ECommerce_API.Exceptions;
+
 namespace ECommerce_API.Core.Services
 {
     public class ProductCategoryServices
@@ -18,8 +21,19 @@ namespace ECommerce_API.Core.Services
 
         public async Task<List<BaseProductDto>> SearchProducts(string searchString)
         {
+            if (string.IsNullOrEmpty(searchString))
+            {
+                throw new BadRequestException(
+                        "SearchProducts SearchString is Empty", nameof(SearchProducts)
+                );
+            }
             var products = await _productsRepository.SearchParameters<BaseProductDto>(searchString);
-
+            if (products == null || products.Count() == 0)
+            {
+                throw new NotFoundException(
+                    "SearchProducts No Items" , nameof(SearchProducts)
+                );
+            } 
             return products;
         }
     }
