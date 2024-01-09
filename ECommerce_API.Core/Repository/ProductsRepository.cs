@@ -55,10 +55,19 @@ namespace ECommerce_API.Core.Repository
         public override async Task<List<BaseProductDto>> SearchParameters<BaseProductDto>(string parameter)
 
         {
-            var  items = await _context.Products
-                            .Where(x => x.ProductName.Contains(parameter))
-                            .ProjectTo<BaseProductDto>(_mapper.ConfigurationProvider)
-                            .ToListAsync();
+            // join products and productCategories and categories
+            // get the products that have the given parameter in their name or the parameter is in the category name
+            // select the unique products
+            // map the products to baseProductDto
+            // return the baseProductDto
+            var items = await _context.Products
+                .Join(_context.productCategories, p => p.Id, pc => pc.ProductId, (p, pc) => new { p, pc })
+                .Join(_context.Categories, ppc => ppc.pc.CategoryId, c => c.Id, (ppc, c) => new { ppc, c })
+                .Where(ppcc => ppcc.c.CategoryName.Contains(parameter) || ppcc.ppc.p.ProductName.Contains(parameter) )
+                .Select(ppccc => ppccc.ppc.p)
+                .Distinct()
+                .ProjectTo<BaseProductDto>(_mapper.ConfigurationProvider)
+                .ToListAsync();
 
             return items;
         }

@@ -2983,3 +2983,26 @@ System.InvalidOperationException: Unable to resolve service for type 'ECommerce_
 2024-01-09 17:43:46.641 +02:00 [INF] Hosting environment: Development
 2024-01-09 17:43:46.642 +02:00 [INF] Content root path: D:\.netprojs\ECommerce_API\ECommerce_API
 2024-01-09 17:43:58.161 +02:00 [INF] HTTP GET /api/ProductCategory responded 200 in 1312.1329 ms
+2024-01-09 17:50:11.432 +02:00 [INF] Now listening on: https://localhost:7067
+2024-01-09 17:50:11.464 +02:00 [INF] Now listening on: http://localhost:5097
+2024-01-09 17:50:11.467 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 17:50:11.468 +02:00 [INF] Hosting environment: Development
+2024-01-09 17:50:11.469 +02:00 [INF] Content root path: D:\.netprojs\ECommerce_API\ECommerce_API
+2024-01-09 17:50:21.747 +02:00 [INF] HTTP GET /api/ProductCategory responded 200 in 1321.1303 ms
+2024-01-09 18:06:02.497 +02:00 [INF] Now listening on: https://localhost:7067
+2024-01-09 18:06:02.527 +02:00 [INF] Now listening on: http://localhost:5097
+2024-01-09 18:06:02.531 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 18:06:02.532 +02:00 [INF] Hosting environment: Development
+2024-01-09 18:06:02.533 +02:00 [INF] Content root path: D:\.netprojs\ECommerce_API\ECommerce_API
+2024-01-09 18:06:13.206 +02:00 [INF] HTTP GET /api/ProductCategory responded 404 in 1244.9756 ms
+2024-01-09 18:07:01.877 +02:00 [INF] Now listening on: https://localhost:7067
+2024-01-09 18:07:01.917 +02:00 [INF] Now listening on: http://localhost:5097
+2024-01-09 18:07:01.921 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 18:07:01.923 +02:00 [INF] Hosting environment: Development
+2024-01-09 18:07:01.924 +02:00 [INF] Content root path: D:\.netprojs\ECommerce_API\ECommerce_API
+2024-01-09 18:12:34.784 +02:00 [INF] Now listening on: https://localhost:7067
+2024-01-09 18:12:34.814 +02:00 [INF] Now listening on: http://localhost:5097
+2024-01-09 18:12:34.818 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 18:12:34.818 +02:00 [INF] Hosting environment: Development
+2024-01-09 18:12:34.819 +02:00 [INF] Content root path: D:\.netprojs\ECommerce_API\ECommerce_API
+2024-01-09 18:12:43.271 +02:00 [INF] HTTP GET /api/ProductCategory responded 200 in 1242.0273 ms

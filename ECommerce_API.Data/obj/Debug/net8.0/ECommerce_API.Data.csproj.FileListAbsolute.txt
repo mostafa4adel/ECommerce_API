@@ -12,3 +12,4 @@ D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\refint\ECommerce_
 D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.pdb
 D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.genruntimeconfig.cache
 D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ref\ECommerce_API.Data.dll
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.sourcelink.json

@@ -15,3 +15,4 @@ D:\.netprojs\ECommerce_API\ECommerce_API.Core\obj\Debug\net8.0\ECommerce_API.Cor
 D:\.netprojs\ECommerce_API\ECommerce_API.Core\obj\Debug\net8.0\ref\ECommerce_API.Core.dll
 D:\.netprojs\ECommerce_API\ECommerce_API.Core\bin\Debug\net8.0\ECommerce_API.Core.runtimeconfig.json
 D:\.netprojs\ECommerce_API\ECommerce_API.Core\obj\Debug\net8.0\ECommerce_API.Core.genruntimeconfig.cache
+D:\.netprojs\ECommerce_API\ECommerce_API.Core\obj\Debug\net8.0\ECommerce_API.Core.sourcelink.json
