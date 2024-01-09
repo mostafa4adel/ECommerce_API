@@ -1,0 +1,14 @@
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\bin\Debug\net8.0\ECommerce_API.Data.deps.json
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\bin\Debug\net8.0\ECommerce_API.Data.runtimeconfig.json
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\bin\Debug\net8.0\ECommerce_API.Data.dll
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\bin\Debug\net8.0\ECommerce_API.Data.pdb
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.csproj.AssemblyReference.cache
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.AssemblyInfoInputs.cache
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.AssemblyInfo.cs
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.csproj.CoreCompileInputs.cache
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.dll
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\refint\ECommerce_API.Data.dll
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.pdb
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ECommerce_API.Data.genruntimeconfig.cache
+D:\.netprojs\ECommerce_API\ECommerce_API.Data\obj\Debug\net8.0\ref\ECommerce_API.Data.dll
